@@ -1,0 +1,10 @@
+= API Documentation
+v.1.0
+:toc: left
+:toc-title: Table of Content
+
+== Admin
+include::admin.adoc[]
+
+== User
+include::user.adoc[]

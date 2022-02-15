@@ -1,0 +1,17 @@
+=== GET all users
+A `GET` request used to access to the all users by admin.
+
+==== Request structure
+include::{snippets}/AdminUserControllerIT/givenAdmin_whenGetRequest_shouldReturn200/http-request.adoc[]
+
+==== Example response
+include::{snippets}/AdminUserControllerIT/givenAdmin_whenGetRequest_shouldReturn200/http-response.adoc[]
+
+==== CURL request
+include::{snippets}/AdminUserControllerIT/givenAdmin_whenGetRequest_shouldReturn200/curl-request.adoc[]
+
+==== Forbidden response
+include::{snippets}/AdminUserControllerIT/givenUser_whenGetRequest_shouldReturn403/http-response.adoc[]
+
+==== Unauthorized response
+include::{snippets}/IndexControllerIT/shouldReturn401/http-response.adoc[]

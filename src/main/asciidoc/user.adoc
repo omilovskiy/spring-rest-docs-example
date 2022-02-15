@@ -1,0 +1,14 @@
+=== GET all users
+A `GET` request used to access to the all users.
+
+==== Request structure
+include::{snippets}/UserControllerIT/givenAuth_whenGetRequest_shouldReturn200/http-request.adoc[]
+
+==== Example response
+include::{snippets}/UserControllerIT/givenAuth_whenGetRequest_shouldReturn200/http-response.adoc[]
+
+==== CURL request
+include::{snippets}/UserControllerIT/givenAuth_whenGetRequest_shouldReturn200/curl-request.adoc[]
+
+==== Unauthorized response
+include::{snippets}/IndexControllerIT/shouldReturn401/http-response.adoc[]
